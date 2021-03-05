@@ -35,3 +35,12 @@ coming soon...
   coming soon...
 
 Were used [HTML 5](https://developer.mozilla.org/en-US/docs/Web/HTML/HTML5), [CSS 3](https://developer.mozilla.org/en-US/docs/Web/CSS), [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), [GIMP](https://www.gimp.org/) for creating and editing the images used in the project.
+
+- ## Dependency:
+
+Puppeteer JS - https://www.npmjs.com/package/puppeteer
+
+Getting Started
+Installation:
+To use Puppeteer in your project, run:
+npm i puppeteer or "yarn add puppeteer"
