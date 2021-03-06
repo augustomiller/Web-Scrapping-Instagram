@@ -1,0 +1,23 @@
+{
+  "name": "web-scrapping-instagram",
+  "version": "1.0.0",
+  "description": "## Index",
+  "main": "code.js",
+  "dependencies": {
+    "puppeteer": "^8.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maicmiller/Web-Scrapping-Instagram.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maicmiller/Web-Scrapping-Instagram/issues"
+  },
+  "homepage": "https://github.com/maicmiller/Web-Scrapping-Instagram#readme"
+}
