@@ -8,7 +8,7 @@
 - [4. General considerations](#4-general-considerations)
 
 ---
-Were used [NodeJS](https://nodejs.org/en/),[Puppeteer](https://pptr.dev/),[HTML 5](https://developer.mozilla.org/en-US/docs/Web/HTML/HTML5), [CSS 3](https://developer.mozilla.org/en-US/docs/Web/CSS), [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), [GIMP](https://www.gimp.org/) for creating and editing the images used in the project.
+Were used [NodeJS](https://nodejs.org/en/), [Puppeteer](https://pptr.dev/), [HTML 5](https://developer.mozilla.org/en-US/docs/Web/HTML/HTML5), [CSS 3](https://developer.mozilla.org/en-US/docs/Web/CSS), [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), [GIMP](https://www.gimp.org/) for creating and editing the images used in the project.
 
 ![Screenshot](https://user-images.githubusercontent.com/990877/110247626-e408f880-7f4b-11eb-9844-4c73cdb1a0e2.png)
 
