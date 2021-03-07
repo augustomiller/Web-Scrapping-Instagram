@@ -1,6 +1,20 @@
+@font-face{
+    font-family: "Sacramento";
+    src: url(./Assets/Fonts/Sacramento/Sacramento-Regular.ttf);
+}
 *{
     margin: 0;
     padding: 0;
+}
+body{
+    background-color: rgb(73, 70, 70);
+}
+h1{
+    margin: 20px;
+    font-family: "Sacramento";
+    font-size: 6em;
+    text-align: center;
+    color: tomato;
 }
 .container{
     /* background-color: tomato; */
@@ -16,6 +30,10 @@ li img {
     height: 100%;
     object-fit: cover;
 }
-h1{
-    margin: 20px;
+.container img:hover { 
+    -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+      -o-transform: scale(1.1);
+       -ms-transform: scale(1.1);
+        transform: scale(2.1);
 }
