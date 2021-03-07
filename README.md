@@ -8,6 +8,7 @@
 - [4. General considerations](#4-general-considerations)
 
 ---
+![Screenshot](https://user-images.githubusercontent.com/990877/110247626-e408f880-7f4b-11eb-9844-4c73cdb1a0e2.png)
 
 ## 1. Preamble
 
@@ -37,6 +38,8 @@ coming soon...
 Were used [HTML 5](https://developer.mozilla.org/en-US/docs/Web/HTML/HTML5), [CSS 3](https://developer.mozilla.org/en-US/docs/Web/CSS), [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), [GIMP](https://www.gimp.org/) for creating and editing the images used in the project.
 
 - ## Dependency:
+
+Módulo File-System do NodeJS
 
 Puppeteer JS - https://www.npmjs.com/package/puppeteer
 
