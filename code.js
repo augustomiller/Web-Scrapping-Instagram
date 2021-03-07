@@ -9,8 +9,6 @@ const fs = require('fs');
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
     await page.goto('https://instagram.com/wonderful_places');
-
-
     /**
      * A Função evaluate espera uma função como argumento. E Toda essa função será executada no Browser :)...
      * [x]-Pegar todas as imagens dentro da tag article que estão no post alvo - (DOM).
