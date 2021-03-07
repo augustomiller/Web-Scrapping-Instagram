@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./code.js"></script>
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <h1>Beautiful images</h1>
+    </header>
+    <main>
+        <section>
+            <div class="container"></div>
+        </section>
+    </main>
+    <footer></footer>
+    <script>
+        (async () => {
+            /**
+             * [x]-Pegar a resposta do Fetch.
+             * [x]-Transformar os dados em um array de objetos para serem manipulados.
+             * [x]-Formatar os dados para enviar para o Html.
+             * [x]-Colocar no Html.
+             * [x]- Salvar todos os arquivos em uma pasta temp, caso o link quebre as imagens ainda estarão disponíveis(comming soon...).
+            */
+            const response = await fetch('./instagram.json');
+            const data = await response.json();
+            const htmlList = data.map(image => `<li><img src="${image.src}"></li>`).join('');
+            document.querySelector('.container').innerHTML = htmlList;
+        })();
+    </script>
+</body>
+
+</html>
